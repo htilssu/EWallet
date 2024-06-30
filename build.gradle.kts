@@ -41,6 +41,8 @@ dependencies {
     implementation("com.github.bastiaanjansen:otp-java:2.0.3")
     //twilio
     implementation("com.twilio.sdk:twilio:10.4.0")
+    //google qrcode
+    implementation("com.google.zxing:core:3.4.1")
 
 
     runtimeOnly("com.microsoft.sqlserver:mssql-jdbc")
